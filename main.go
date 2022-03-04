@@ -11,7 +11,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Gorilla"))
+	w.Write([]byte("Gorilla/Mux Example"))
 }
 
 func idEvaluator(w http.ResponseWriter, r *http.Request) {
